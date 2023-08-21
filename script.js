@@ -1,36 +1,30 @@
-//alert
-//prompt
-//cofirm
-
-//if(условие)
-//let num = 5
-
-//let answer = prompt("Угадай число?")
-//if (answer == num) { alert("Поздравляю") }
-//else { alert("Не угадал") }
-//function название_функции( аргумент 1, аргумент 2) 
+const elements = document.getElementsByClassName("menu-item");
+for(i=0;i<elements.length;i++){
+  elements[i].addEventListener("mousedown", showMenu);
+  elements[i].addEventListener("mouseleave", hideMenu);
+}
 
 
-//Let, const - создания переменных
-//Number, Sting, BooLean, null, undefiend, NaN - типы данных
-// if() - условные операторы
-//while, do while, for - циклы
-//break, continue - прервать цикл
-//function - функции
+function showMenu(){
+  if(this.children.length>1){
+    this.children[1].style.height = "auto";
+    this.children[1].style.opacity = "1";
+    this.children[1].style.overflow = "visible";
+    
+  }
+
+}
 
 
-//function yrovnenie(a, b, c){
-//    const discriminant=b*b-4*a*c;
-//    if(discriminant==0){
-//        return-b/(2*a);
- //   } else if(discriminant >0){
-  //      let x1=(-b+Math.sqrt(discriminant))/(2*a);
- //       let x2=(-b+Math.sqrt(discriminant))/(2*a); 
-  //  }
-//}
+function hideMenu(){
+  if(this.children.length>1){
+    this.children[1].style.height = "0";
+    this.children[1].style.opacity = "0";
+    this.children[1].style.overflow = "hidden";
+    
+  }
 
-//function sum(a,b){
-//  return a+b;
-//}
-//const return = sum=(2,7);
-//document.write(res
+}
+
+
+

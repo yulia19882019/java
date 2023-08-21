@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
 }
-header{
-    height: 28px;
+.header{
+    height: 128px;
     width: 1140px;
+    padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    background-color:rgb(231, 238, 241) ;
 }
 .logo{
     display: flex;
@@ -16,8 +18,201 @@ header{
 }
 
 .logo{
-    font-family:font-family: 'Raleway', sans-serif;
-    width: 139px;
+    font-family:'Raleway', sans-serif;
+    width : 139px;
     height: 25px;
-    gap: 11px;
+    gap: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    margin-top: -25px;
+    margin-left: 100px;
+}
+.sub-menu{
+    overflow: hidden;
+    opacity: 0;
+    height: 0;
+}
+.main{
+    width:1140px;
+    height: 1800px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    position:absolute ;
+}
+.heading{
+    width:563px ;
+    height:385px ;
+    top: 165px;
+    left: 100px;
+    position: absolute;
+}
+.text{
+    width: 400px;
+    height: 120px;
+    left: 15px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.text2{
+    width: 500px;
+    size: 30px;
+    line-height: 28px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.foto{
+    width:703px;
+    height: 826px;
+    left:558px;
+    top: 0px;
+    position: absolute;
+    background-color:rgb(231, 238, 241);
+}
+.main_photo{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.secondary_photo{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 250px;
+}
+.third_photo{
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 350px;
+}
+.collection{
+    width:1140px;
+    height:auto;
+    margin-top:730px;
+    padding-left:55px;
+    padding-right: 15px;
+    position:absolute;
+}
+.new_collection{
+    width: 1140px;
+    height:auto;
+}
+.heading2{
+    width: 343px;
+    height: 44px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 35px;
+    font-family: 'Raleway', sans-serif;
+}
+.T-shirt{
+    margin-left: 10px;
+    margin-top: 90px;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+}
+.T-shirt_foto{
+    position: relative;
+}
+.slider-image{
+    width: 350px;
+    height: 478px;   
+    opacity: 0;
+}
+.show{
+    opacity: 1;
+}
+.actions{
+    display: flex;
+    margin-left: 120px;
+}
+.swimsuit{
+    margin-left:396px;
+    margin-top: 90px;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+}
+.sweatshirt{
+    margin-left:780px;
+    margin-top: 90px;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+}
+.important{
+    width: 1140px;
+    height:auto;
+    position: absolute;
+    margin-top:1450px;
+    padding-left:55px;
+    padding-right: 15px;
+    position:absolute;
+}
+.text_important{
+    margin-left:25px;
+    margin-top: 50px;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+}
+.quality{
+    margin-left:25px;
+    margin-top: 90px;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+}
+.speed{
+    margin-left:400px;
+    margin-top: 80px;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+}
+.responsibility{
+    margin-left:790px;
+    margin-top: 90px;
+    position: absolute; 
+    font-family: 'Raleway', sans-serif;
+}
+.footer{
+    width:1140px;
+    height: 200px;
+    margin-top: 1780px;
+    margin-left: 75px;
+    position:absolute ;
+    background-color:rgb(203, 223, 231) ;
+}
+.rights{
+    margin-left:8px;
+    margin-top: 50px;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+}
+
+.connection{
+    margin-left:450px;
+    margin-top: 50px;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+}
+.twitter{
+    margin-left:850px;
+    margin-top: 60px;
+    position: absolute; 
+}
+.instagram{
+    margin-left:950px;
+    margin-top: 60px;
+    position: absolute; 
+}
+.facebook{
+    margin-left:900px;
+    margin-top: 60px;
+    position: absolute;  
+}
+.payment{
+    margin-left:900px;
+    margin-top: 160px;
+    position: absolute;
 }
