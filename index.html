@@ -18,7 +18,7 @@
         </div>             
         <ul class="menu">          
             <li class="menu-item">
-                <a href="#">Магазин</a>
+                <a href="#" style="color: black;">Магазин</a>
                 <ul class="sub-menu">
                     <li><a href="#">Пальто</a></li>
                     <li><a href="#">Свитшот</a></li>
@@ -27,7 +27,7 @@
                 </ul>
             </li>
             <li class="menu-item">
-                <a href="#">Контакты</a>
+                <a href="#" style="color: black;">Контакты</a>
                 <ul class="sub-menu">
                     <li><a href="#">Телефон:<br>+7 (495) 823-54-12</a></li>
                     <li><a href="#">E-mail:<br>@sitename.com</a></li>
@@ -35,7 +35,7 @@
                 </ul>
             </li>
             <li class="menu-item">
-                <a href="#">Корзина</a>
+                <a href="#" style="color: black;">Корзина</a>
                 <ul class="sub-menu">
                     <li><a href="#">Товар</a></li>
                     <li><a href="#">Цена</a></li>
@@ -75,38 +75,56 @@
             <div class="new_collection">
                   <div class="heading2">
                       <h1>Новая коллекция</h1>       
-                  </div>
-                   <div class="T-shirt">
-                      <div class="T-shirt_foto">
-                          <img class="slider-image show" src="./img/фото1,1.jpg" alt="девушка_в_футболеке"/>
-                          <img class="slider-image" src="./img/фото1,1,1.jpg" alt="девушка_в_футболеке"/>
-                          <img class="slider-image" src="./img/фото1,1,1,1.jpg" alt="девушка_в_футболеке"/>
-                           <h3>Футболка</h3>
-                           <h4>$129</h4>
-                       </div>
-                       <div class="actions">
-                        <input type="button" class="prev" value="Назад"/>
-                        <input type="button" class="next" value="Вперед"/>
-                       </div>
-                   </div>
-                       <div class="swimsuit">
-                         <div class="swimsuit_foto">
-                              <img src="./img/фото2,2.jpg" alt="девушка_в_купальнике"/>
-                               <h3>Купальник_Glow</h3>
-                                 <h4>$168</h4>
-                           </div>
-                       </div>
-                       <div class="sweatshirt">
-                        <div class="sweatshirt_foto">
-                             <img src="./img/фото3,3.jpg" alt="девушка_в_свитшоте"/>
-                              <h3>Свитшот Sweet Shot</h3>
-                                <h4>$311</h4>
-                          </div>
-                      </div>                        
-                                    
+                  </div>                                                     
+            </div>
+        </div> 
+        <div class="slider">
+            <div class="photos">
+                <img class="slider-image show" src="./img/фото1,1.jpg" alt="девушка_в_футболеке"/>
+                <img class="slider-image" src="./img/фото1,1,1.jpg" alt="девушка_в_футболеке"/>
+                <img class="slider-image" src="./img/фото1,1,1,1.jpg" alt="девушка_в_футболеке"/>
+            </div>
+            <div class="actions">
+                <input type="button" class="prev" value="Назад"/>
+                <input type="button" class="next" value="Вперед"/>
+               </div>
+        </div>
+        <div class="t-shirts">
+            <h3>Футболка</h3>
+            <h4>$129</h4>
+        </div>
+        
+        <div class="slider2">
+            <div class="photos2">
+                <img class="slider-image2 show2" src="./img/купальник.jpg" alt="девушка_в_купальнике"/>
+                <img class="slider-image2" src="./img/купальник1.jpg" alt="девушка_в_купальнике"/>
+                <img class="slider-image2" src="./img/фото2,2.jpg" alt="девушка_в_купальнике"/>
+            </div>
+            <div class="actions2">
+                <input type="button" class="prev2" value="Назад"/>
+                <input type="button" class="next2" value="Вперед"/>
+               </div>
+        </div>
+        <div class="swimsuit">
+            <h3>Купальник</h3>
+            <h4>$168</h4>
+        </div>
+        <div class="slider1">
+            <div class="photos1">
+                <img class="slider-image1 show1" src="./img/свитшот3.jpg" alt="девушка_в_свитшоте"/>
+                <img class="slider-image1" src="./img/свитшот.jpg" alt="девушка_в_свитшоте"/>
+                <img class="slider-image1" src="./img/свитшот5.jpg" alt="девушка_в_свитшоте"/>
+            </div>
+            <div class="actions1">
+                <input type="button" class="prev1" value="Назад"/>
+                <input type="button" class="next1" value="Вперед"/> 
+            </div>
+            <div class="sweatshirt">
+                <h3>Свитшот</h3>
+                <h4>$311</h4>
             </div>
 
-        </div> 
+        </div>
         <div class="important">
             <div class="text_important">
                 <h2>Что для нас важно</h2>
@@ -143,6 +161,15 @@
       <div class="connection">
           <h2>Напишите нам:</h2>
           <h2>hello@womazing.com</h2>
+          <form action="" class="form" id="add-form">
+            <div class="input-box">
+                <input type="text" class="input-fieid" placeholder="Имя">
+            </div>
+            <div class="input-box">
+                <input type="text" class="input-fieid" placeholder="Сообщение">
+            </div>
+            <button type="submit" class="send-btn">Отправить</button>
+         </form>
       </div>
        <div class="twitter">
           <img src="./img/логотип3.jpg" alt="твиттер">
@@ -157,17 +184,7 @@
           <img src="./img/логотип2.jpg" alt="visa">
        </div>
     
-
-
-
-
-
-
-
    </footer>
-
-
-
 
 
    <script src="./script.js"></script> 

@@ -31,6 +31,10 @@
     margin-top: -25px;
     margin-left: 100px;
 }
+.menu-item{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+}
 .sub-menu{
     overflow: hidden;
     opacity: 0;
@@ -109,44 +113,126 @@
     margin-left: 35px;
     font-family: 'Raleway', sans-serif;
 }
-.T-shirt{
-    margin-left: 10px;
-    margin-top: 90px;
-    position: absolute;
-    font-family: 'Raleway', sans-serif;
+
+.slider{
+    width: 350px;
 }
-.T-shirt_foto{
+.photos{
     position: relative;
+    width: 350px;
+    height: 478px;
 }
 .slider-image{
     width: 350px;
-    height: 478px;   
+    height: 478px;
+    position: absolute;
     opacity: 0;
+    transition: all 1s;
+    margin-left: 95px;
+    margin-top:820px;
 }
 .show{
     opacity: 1;
 }
 .actions{
     display: flex;
-    margin-left: 120px;
+    margin-left: 240px;
+    margin-top: 820px;
+}
+.prev{
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+.next{
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer; 
+}
+.t-shirts{
+    position: absolute;
+    margin-left:115px;
+    margin-top: -60px;
+}
+.slider2{
+    width: 350px; 
+}
+.photos2{
+    position: relative;
+    width: 350px;
+    height: 478px;
+}
+.slider-image2{
+    width: 350px;
+    height: 478px;
+    position: absolute;
+    opacity: 0;
+    transition: all 1s;
+    margin-left: 495px;
+    margin-top:-495px;
+}
+.show2{
+    opacity: 1;
+}
+.actions2{
+    display: flex;
+    margin-left: 650px;
+    margin-top: -495px;
+}
+.prev2{
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+.next2{
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer; 
 }
 .swimsuit{
-    margin-left:396px;
-    margin-top: 90px;
     position: absolute;
+    margin-left:515px;
+    margin-top: -60px;
+}
+.slider1{
+    width: 350px;
+}
+.photos1{
+    position: relative;
+    width: 350px;
+    height: 478px;
+}
+.slider-image1{
+    width: 350px;
+    height: 478px;
+    position: absolute;
+    opacity: 0;
+    transition: all 1s;
+    margin-left: 895px;
+    margin-top: -500px;
+}
+.show1{
+    opacity: 1;
+}
+.actions1{
+    display: flex;
+    margin-left: 1020px;
+    margin-top: -500px;
+}
+.prev1{
     font-family: 'Raleway', sans-serif;
+    cursor: pointer; 
+}
+.next1{
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;   
 }
 .sweatshirt{
-    margin-left:780px;
-    margin-top: 90px;
     position: absolute;
-    font-family: 'Raleway', sans-serif;
+    margin-left:915px;
+    margin-top: -60px; 
 }
 .important{
     width: 1140px;
     height:auto;
     position: absolute;
-    margin-top:1450px;
+    margin-top:0px;
     padding-left:55px;
     padding-right: 15px;
     position:absolute;
@@ -158,27 +244,27 @@
     font-family: 'Raleway', sans-serif;
 }
 .quality{
-    margin-left:25px;
+    margin-left:75px;
     margin-top: 90px;
     position: absolute;
     font-family: 'Raleway', sans-serif;
 }
 .speed{
-    margin-left:400px;
+    margin-left:450px;
     margin-top: 80px;
     position: absolute;
     font-family: 'Raleway', sans-serif;
 }
 .responsibility{
-    margin-left:790px;
+    margin-left:850px;
     margin-top: 90px;
     position: absolute; 
     font-family: 'Raleway', sans-serif;
 }
 .footer{
-    width:1140px;
-    height: 200px;
-    margin-top: 1780px;
+    width:1190px;
+    height: 400px;
+    margin-top: 1600px;
     margin-left: 75px;
     position:absolute ;
     background-color:rgb(203, 223, 231) ;
@@ -196,23 +282,54 @@
     position: absolute;
     font-family: 'Raleway', sans-serif;
 }
+.form{
+    display: block;
+    width: 400px;
+    margin-top:40px ;
+    margin-left: 0px;
+}
+.input-fieid{
+    display: block;
+    border: 1px solid blue;
+    border-radius: 0;
+    padding: 20px 28px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.send-btn{
+    border: none;
+    padding: 20px 28px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 2s;
+}
 .twitter{
-    margin-left:850px;
+    margin-left:920px;
     margin-top: 60px;
     position: absolute; 
 }
 .instagram{
-    margin-left:950px;
-    margin-top: 60px;
+    margin-left:920px;
+    margin-top: 140px;
     position: absolute; 
 }
 .facebook{
-    margin-left:900px;
-    margin-top: 60px;
+    margin-left:920px;
+    margin-top: 220px;
     position: absolute;  
 }
 .payment{
     margin-left:900px;
-    margin-top: 160px;
+    margin-top: 320px;
     position: absolute;
+}
+.error.input-fieid{
+    background-color: brown;
+}
+.error-label{
+    display: block;
+    color: brown;
+    margin-bottom: 10px;
 }
